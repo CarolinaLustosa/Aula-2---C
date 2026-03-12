@@ -242,7 +242,53 @@ int main(){
 	}
 	*/
 	
-	
+
+
+
+
+
+	// 7. Lista 2
+
+/*
+int numSort, palpite;
+
+srand(time(NULL));
+numSort = (rand() %5) + 1;
+printf("Digite o numero do seu palpite (de 1 a 5):\n");
+scanf("%d", &palpite);
+if (palpite == numSort){
+	printf("Voce acertou");
+} else {
+	printf("Voce errou, o numero era %d", numSort);
+}
+*/
+
+// 10. Lista 1
+
+/*
+float valor;
+printf("Digite o valor da mercadoria:\n");
+scanf("%f", &valor);
+float entrada = (int)(valor/3) + fmodf(valor,3);
+// float entrada = valor - 2*(int)(valor/3);
+float parcela = (int)(valor/3);
+printf("Valor da mercadoria: %.2f, a entrada: %.2f, e as parcelas %.2f", valor, entrada, parcela);
+*/
+
+// 11. Lista 1
+
+/*
+float entrada;
+int hora, minuto, segundo;
+printf("Digite o tempo em minutos:\n");
+scanf("%f", &entrada);
+hora = (int)(entrada/60);
+minuto = (int)(entrada - hora*60);
+segundo = (entrada - hora*60 - minuto)*60;
+printf("Entrada: %.2f minutos, e equivalente a %d h %d min %d seg\n", entrada, hora, minuto, segundo);
+*/
+
+// 12. Lista 1
 	
 	return 0;
 }
